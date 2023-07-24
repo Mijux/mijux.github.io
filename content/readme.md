@@ -13,7 +13,15 @@ draft: false
 </h1>
 
 
-## 🚀 About me
+<p style="
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;">
+  🚀 About me
+</p>
 
 - 🛡️ I work in cybersecurity.
 - 🌱 I'm currently learning about artificial intelligence, network and cloud architectures.
@@ -23,8 +31,14 @@ draft: false
 
 
 <details>
-  <summary>
-    <h2>🛠️ Skills Showcase</h2>
+  <summary style="
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;">
+    🛠️ Skills Showcase
   </summary>
 
 ### 🐍 Python
