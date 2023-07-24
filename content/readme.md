@@ -6,7 +6,7 @@ draft: false
 
 <h1 align='center'>
   <br>
-  <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='../static/images/avatar.png' alt='Mijux Avatar' width='200' style="border-radius: 50%; border:3px solid #A0A0A0;"></a>
+  <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='/images/avatar.png' alt='Mijux Avatar' width='200' style="border-radius: 50%; border:3px solid #A0A0A0;"></a>
   <br>
   Hi 👋, I'm Mijux
   <br>
@@ -33,6 +33,7 @@ draft: false
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Tensorflow](https://img.shields.io/badge/Tensorflow-FF6F00?logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 
 
 ### 🌐 Web
@@ -68,7 +69,7 @@ draft: false
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 
 
-### 💻 Other language
+### 💻 Other Language
 
 ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white)
@@ -79,27 +80,22 @@ draft: false
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 
 
-### ⚙️ Software and tools
+### 🧭 Systems and Hardwares
 
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![LXC](https://img.shields.io/badge/LXC-333333?logo=linuxcontainers&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Qemu](https://img.shields.io/badge/Qemu-FF6600?logo=qemu&logoColor=white)
+![Expressif](https://img.shields.io/badge/Expressif-E7352C?logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)
+
+### ⚙️ Software and Tools
+
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white)
 ![GitBook](https://img.shields.io/badge/GitBook-3884FF?logo=gitbook&logoColor=white)
-![Github](https://img.shields.io/badge/Github-181717?logo=github&logoColor=white)
-![Github Pages](https://img.shields.io/badge/Github%20Pages-222222?logo=githubpages&logoColor=white)
-![Gitlab](https://img.shields.io/badge/Gitlab-FC6D26?logo=gitlab&logoColor=white)
-![Gimp](https://img.shields.io/badge/Gimp-5C5543?logo=gimp&logoColor=white)
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 ![Apache Web](https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=white)
 ![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?logo=alacritty&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![LXC](https://img.shields.io/badge/LXC-333333?logo=linuxcontainers&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white)
-![Alpine](https://img.shields.io/badge/Alpine-0D597F?logo=alpinelinux&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali-557C94?logo=kalilinux&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Expressif](https://img.shields.io/badge/Expressif-E7352C?logo=espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white)
+
 
