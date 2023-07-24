@@ -1,0 +1,50 @@
+baseURL = "https://mijux.github.io"
+languageCode = "en-us"
+title = "Mijux-verse"
+theme = "github-style"
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Mijux"
+  description = "In solitude, where we are least alone."
+  github = "Mijux"
+#  facebook = "MeiK2333"
+  twitter = "MijuxDev"
+#  linkedin = "MeiK2333"
+#  instagram = "MeiK2333"
+#  tumblr = "MeiK2333"
+  email = "mijux-dev@proton.me"
+  url = "https://mijux.github.io"
+  keywords = "blog, cyber, cybersecurity, cyberdefense, programming, coding, IT, security, portfolio, write-up, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🛡️"
+  favicon = "/images/github.png"
+  location = "🤖 Cyberspace"
+#  enableGitalk = true
+#
+#  [params.gitalk]
+#    clientID = "Your client ID" 
+#    clientSecret = "Your client secret" 
+#    repo = "repo"
+#    owner = "MeiK2333"
+#    admin = "MeiK2333"
+#    id = "location.pathname"
+#    labels = "gitalk"
+#    perPage = 15
+#    pagerDirection = "last"
+#    createIssueManually = true
+#    distractionFreeMode = false
+
+#  [[params.links]]
+#    title = "Link"
+#    href = "https://github.com/meik2333"
+#  [[params.links]]
+#    title = "Link2"
+#    href = "https://meik2333.com"
+#    icon = "https://meik2333.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
