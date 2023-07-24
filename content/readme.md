@@ -22,8 +22,10 @@ draft: false
 - ⚡ Fun fact : I really like [Urban Dictionnary](https://urbandictionary.com) for all its marginal definitions.
 
 
-## 🛠️ Skills Showcase
-
+<details>
+  <summary>
+    <h2>🛠️ Skills Showcase</h2>
+  </summary>
 
 ### 🐍 Python
 
@@ -98,4 +100,5 @@ draft: false
 ![Apache Web](https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=white)
 ![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?logo=alacritty&logoColor=white)
 
+</details>
 
