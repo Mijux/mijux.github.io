@@ -1,6 +1,6 @@
 baseURL = "https://mijux.github.io"
 languageCode = "en-us"
-title = "Mijux-verse"
+title = "Mijux's blog"
 theme = "github-style"
 
 pygmentsCodeFences = true
@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 
 [params]
   author = "Mijux"
-  description = "In solitude, where we are least alone."
+  description = "Amateurs hack systems, professionals hack people."
   github = "Mijux"
 #  facebook = "MeiK2333"
   twitter = "MijuxDev"
