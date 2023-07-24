@@ -6,7 +6,7 @@ draft: false
 
 <h1 align='center'>
   <br>
-  <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='/images/avatar.png' alt='Mijux Avatar' width='200' style="border-radius: 50%; border:3px solid #A0A0A0;"></a>
+  <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='/images/avatar.png' alt='Mijux Avatar' width='125' style="border-radius: 50%; border:3px solid #A0A0A0;"></a>
   <br>
   Hi 👋, I'm Mijux
   <br>
