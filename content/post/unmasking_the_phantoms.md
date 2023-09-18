@@ -1,5 +1,5 @@
 +++
-title = "Unmasking the Phantom"
+title = "Unmasking the Phantoms"
 date = 2023-09-18T10:00:00+02:00
 author = "Mijux"
 keywords = ["OSINT", "Stalking", "Blue Team", "Telegram", "Phishing"]
