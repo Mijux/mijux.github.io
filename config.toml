@@ -10,11 +10,11 @@ pygmentsUseClasses = true
   author = "Mijux"
   description = "Amateurs hack systems, professionals hack people."
   github = "Mijux"
-#  facebook = "MeiK2333"
+#  facebook = ""
   twitter = "MijuxDev"
-#  linkedin = "MeiK2333"
-#  instagram = "MeiK2333"
-#  tumblr = "MeiK2333"
+#  linkedin = ""
+#  instagram = ""
+#  tumblr = ""
   email = "mijux-dev@proton.me"
   url = "https://mijux.github.io"
   keywords = "blog, cyber, cybersecurity, cyberdefense, programming, coding, IT, security, portfolio, write-up, google analytics"
@@ -55,3 +55,45 @@ pygmentsUseClasses = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+DefaultContentLanguaga = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+#    [languages.en.params]
+#      organizations = "Organizations"
+#      search = "Search"
+#      overview = "Overview"
+#      posts = "Posts"
+#      pinned = "Pinned"
+#      less = "Less"
+#      more = "More"
+#      post_activity = "Post activity"
+#      created = "Created"
+#      modified = "Modified"
+#      words = "Words"
+#      previous = "Previous"
+#      next = "Next"
+#      page404 = "Didn’t find anything here!"
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    description = "Les amateurs piratent les systèmes, les professionnels piratent les personnes."
+    [languages.fr.params]
+      is_french = true
+#      organizations = "Organisations"
+#      search = "Rechercher"
+#      overview = "Aperçu"
+#      posts = "Articles"
+#      pinned = "Épinglés"
+#      less = "Peu"
+#      more = "Beaucoup"
+#      post_activity = "Activité de publication"
+#      created = "Créé il y a "
+#      modified = "Modifié il y a"
+#      words = "Mots"
+#      previous = "Précédent"
+#      next = "Suivant"
+#      page404 = "Cette page n'a pas été trouvée"

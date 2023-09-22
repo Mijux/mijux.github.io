@@ -8,7 +8,7 @@ draft: false
   <br>
   <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src='/images/glitch.gif' alt='Mijux Avatar' width='125' style="border-radius: 50%; border:3px solid #A0A0A0;"></a>
   <br>
-  Hi 👋, I'm Mijux
+  Hey 👋, Je suis Mijux
   <br>
 </h1>
 
@@ -20,14 +20,14 @@ draft: false
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;">
-  🚀 About me
+  🚀 À propos
 </p>
 
-- 🛡️ I work in cybersecurity.
-- 🌱 I'm currently learning about artificial intelligence, network and cloud architectures.
-- 🔭 I'm a bit of a jack-of-all-trades when it comes to new technologies.
-- 💬 Don't hesitate to contact me. I'll be happy to discuss your topics !
-- ⚡ Fun fact: I really like [Urban Dictionnary](https://urbandictionary.com) for all its marginal definitions.
+- 🛡️ Je travaille dans la cybersécurité.
+- 🌱 J'étudie actuellement l'intelligence artificielle, les réseaux et les architectures en nuage.
+- 🔭 Je suis un peu un touche-à-tout en matière de nouvelles technologies.
+- 💬 N'hésitez pas à me contacter. Je me ferai un plaisir de discuter de vos sujets !
+- ⚡ Fait amusant : J'aime beaucoup [Urban Dictionnary](https://urbandictionary.com) pour toutes ses définitions originales.
 
 
 <details>
@@ -38,7 +38,7 @@ draft: false
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;">
-    🛠️ Skills Showcase
+    🛠️ Compétences
   </summary>
 
 ### 🐍 Python
@@ -76,7 +76,7 @@ draft: false
 ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
 
 
-### 💾 Database
+### 💾 Base de données
 
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)
@@ -85,7 +85,7 @@ draft: false
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 
 
-### 💻 Other Languages
+### 💻 Autres Langages
 
 ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white)
@@ -96,7 +96,7 @@ draft: false
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 
 
-### 🧭 Systems and Hardwares
+### 🧭 Systèmes et Hardwares
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![LXC](https://img.shields.io/badge/LXC-333333?logo=linuxcontainers&logoColor=white)
@@ -105,7 +105,7 @@ draft: false
 ![Expressif](https://img.shields.io/badge/Expressif-E7352C?logo=espressif&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)
 
-### ⚙️ Software and Tools
+### ⚙️ Logiciels et Outils
 
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white)

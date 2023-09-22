@@ -16,11 +16,11 @@ draft = false
 
 # Unmasking the Phantoms: a Telegram stalking project
 
-> **DISCLAMER** : This project is strictly for educational purposes. It does not endorse or encourage any illegal or unethical activities, including phishing or hacking. Always use your knowledge and skills responsibly and within the bounds of the law. I bear no responsibility for misuse or unlawful actions stemming from the information presented here.
+> **DISCLAIMER** : This project is strictly for educational purposes. It does not endorse or encourage any illegal or unethical activities, including phishing or hacking. Always use your knowledge and skills responsibly and within the bounds of the law. I bear no responsibility for misuse or unlawful actions stemming from the information presented here.
 
 ## Abstract 
 
-This study elucidates the evolution of phishing methodologies, transitioning from conventional email-based tactics to more clandestine approaches utilizing Telegram bots and Discord webhooks. Central to this paradigm shift is the acquisition of Telegram API keys, enabling discreet monitoring and data extraction from Telegram conversations. The research outlines the process of obtaining these keys, explores the technical intricacies of interfacing with Telegram's API, and addresses pertinent considerations such as privacy mode. Results demonstrate the program's efficacy in covert surveillance, though limitations, particularly in bot message retrieval, necessitate further investigation. This study advances our understanding of contemporary phishing techniques and their countermeasures.
+This study elucidates the evolution of phishing methodologies, transitioning from conventional email-based tactics to more clandestine approaches utilizing Telegram bots and Discord webhooks. Central to this paradigm shift is the acquisition of Telegram API keys, enabling discreet monitoring and data extraction from Telegram conversations. The research outlines the process of obtaining these keys, explores the technical intricacies of interfacing with Telegram's API, and addresses pertinent considerations such as privacy mode. Results demonstrate the program's efficacy in covert surveillance, though limitations, particularly in bot message retrieval, necessitate further investigation. This study advances our understanding of contemporary phishing techniques.
 
 ## Thanks
 
@@ -83,11 +83,11 @@ I am not going to do a course about "How make a Telegram chatbot", that not the 
 
 #### The getUpdates endpoint
 
-You can read the API documentation [here](https://core.telegram.org/bots/api#getupdates). The insteresting point is about the first parameter named *offset*. When I have read this one for the first time, I was thinking  *"no problem just need to use -1 as input"*. Theorically, this solution is viable and I used it in my project. However, let's take one minute to discuss about this *offset* variable. This number increases sequentially, so if the bot developer checks this value, we lose our discretion. However, scammers use Telegram API just to send messages, they don't use it as chatbot to read message. 
+You can read the API documentation [here](https://core.telegram.org/bots/api#getupdates). The interesting point is about the first parameter named *offset*. When I have read this one for the first time, I was thinking  *"no problem just need to use -1 as input"*. Theorically, this solution is viable and I used it in my project. However, let's take one minute to discuss about this *offset* variable. This number increases sequentially, so if the bot developer checks this value, we lose our discretion. However, scammers use Telegram API just to send messages, they don't use it as chatbot to read message. 
 
 #### Privacy Mode
 
-An another valuable information about the Telegram [documentation](https://core.telegram.org/bots/features#privacy-mode). We depends a lot about channel configurations, in fact if pricacy mode is enable the bot could have some limited actions. Futhermore, we can't read bot messages. This is an important thing to know. We can only read message from users in the channel but we can't see other bot messages and messages from our bot. 
+An another valuable information about the Telegram [documentation](https://core.telegram.org/bots/features#privacy-mode). We depends a lot about channel configurations, in fact if privacy mode is enable the bot could have some limited actions. Futhermore, we can't read bot messages. This is an important thing to know. We can only read message from users in the channel but we can't see other bot messages and messages from our bot. 
 
 After getting to grips with the API in hand, I ended up making myself a little web front end to enable easy use of the program. 
 
@@ -108,7 +108,7 @@ As a reminder, we use the StalkPhish project to retrieve phishing kit, then extr
 </div>
 
 
-## Limitation
+## Limitations
 
 Some limitations of the project:
 - Unable to read bot messages.
