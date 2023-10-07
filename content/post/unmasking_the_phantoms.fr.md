@@ -26,16 +26,27 @@ Ce post traite de l'évolution des méthodologies d'hameçonnage, passant des ta
 
 Je tiens à remercier mes amis pour les discussions constructives que nous avons eues sur le sujet.
 
+## Glossaire
+
+- [Telegram](https://telegram.org) : Une application de messagerie mobile et de bureau basée sur le cloud qui met l'accent sur la sécurité et la rapidité.
+- [Discord](https://discord.com) : Une application de messagerie mobile et de bureau basée sur le cloud avec des amis et des communautés.
+- [OSINT](https://fr.wikipedia.org/wiki/Renseignement_d%27origine_sources_ouvertes) : **O**pen **S**ource **INT**elligence, il s'agit d'extraire des informations publiques de l'Internet.
+- [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) : **A**pplication **P**rogramming **I**nterface, l'ensemble des demandes qui peuvent être faites pour interroger un service.
+- [clef d'API](https://en.wikipedia.org/wiki/API_key) : Permet d'obtenir les autorisations nécessaires pour interagir avec l'API.
+- [webhook](https://fr.wikipedia.org/wiki/Webhook) : Un service qui notifie les utilisateurs. Dans le cas de Discord, il s'agit d'envoyer des messages dans les conversations.
+- [bot](https://fr.wikipedia.org/wiki/Bot_informatique) : Abréviation de robot.
+- [hameçonnage](https://fr.wikipedia.org/wiki/Hame%C3%A7onnage) : Obtenir des informations personnelles ou sensibles en se faisant passer pour une organisation légitime.
+
 ## Introduction
 
-Depuis le COVID-19 et les confinements, nous avons constaté une augmentation des attaques de hameçonnage. Selon David Warburton sur le [blog F5](https://www.f5.com/company/news/features/phishing-attacks-soar-220--during-covid-19-peak-as-cybercriminal), ces augmentations étaient de l'ordre de 220 % pendant les confinements. En d'autres termes, au lieu d'avoir 100 attaques, nous en avions 320. Aujourd'hui, l'augmentation annuelle est de 15 %. En tant que cyber-curieux, je me suis posé plusieurs questions, dont l'une était la suivante :
-- Pourrions-nous traquer les escrocs en utilisant leurs propres sites de phishing ?
+Depuis le COVID-19 et les confinements, nous avons constaté une augmentation des attaques d'hameçonnage. Selon David Warburton sur le [blog F5](https://www.f5.com/company/news/features/phishing-attacks-soar-220--during-covid-19-peak-as-cybercriminal), ces augmentations étaient de l'ordre de 220 % pendant les confinements. En d'autres termes, au lieu d'avoir 100 attaques, nous en avions 320. Aujourd'hui, l'augmentation annuelle est de 15 %. En tant que cyber-curieux, je me suis posé plusieurs questions, dont l'une était la suivante :
+- Pourrions-nous traquer les escrocs en utilisant leurs propres sites d'hameçonnage ?
 
 C'est là que tout le projet a vu le jour. Je voulais enquêter et répondre à cette question.
 
 ## Objectif
 
-Avant d'expliquer les objectifs du projet, il faut comprendre comment fonctionnent les sites de phishing. D'une manière générale, ces sites sont simplement des sites PHP qui envoient des courriers électroniques. Cependant, les technologies changent et évoluent. Au lieu d'envoyer des courriels, les pirates utilisent désormais des bots Telegram et des webhooks Discord. Les courriels et les webhooks Discord ne peuvent pas être utilisés aussi efficacement. Bien qu'il soit possible d'effectuer de l'OSINT avec ces courriels, ceux-ci ne sont souvent pas liés à d'autres services. Quant aux webhooks Discord, ils ne permettent pas de récupérer des données, mais seulement d'envoyer des messages.
+Avant d'expliquer les objectifs du projet, il faut comprendre comment fonctionnent les sites d'hameçonnage. D'une manière générale, ces sites sont simplement des sites PHP qui envoient des courriers électroniques. Cependant, les technologies changent et évoluent. Au lieu d'envoyer des courriels, les pirates utilisent désormais des bots Telegram et des webhooks Discord. Les courriels et les webhooks Discord ne peuvent pas être utilisés aussi efficacement. Bien qu'il soit possible d'effectuer de l'OSINT avec ces courriels, ceux-ci ne sont souvent pas liés à d'autres services. Quant aux webhooks Discord, ils ne permettent pas de récupérer des données, mais seulement d'envoyer des messages.
 
 Il nous reste donc les clés d'API de Telegram. Ces clés sont utilisées pour développer des chatbots sur Telegram, et les chatbots peuvent non seulement envoyer des messages mais aussi **lire** (ce qui est vraiment intéressant pour nous). L'objectif de ce projet est de pouvoir lire les conversations Telegram de manière discrète et d'en extraire des données.
 
@@ -101,7 +112,7 @@ Comme vous pouvez le voir, mon interface est simple mais efficace. Vous avez sur
 
 Autre chose super intéressante, chaque message envoyé est enregistré pendant 24 heures sur les serveurs de Telegram, ce qui permet à notre bot de récupérer tous les messages de nos scammers en ne faisant qu'une seule requête par jour.
 
-Pour rappel, nous utilisons le projet StalkPhish pour récupérer le kit de phishing, puis extraire la clé API de Telegram que nous insérons dans mon programme. Ensuite, vous pouvez espionner n'importe quel canal Telegram pour lequel vous disposez de la clé API du bot. J'ai mis un petit diagramme pour résumer le pipeline.
+Pour rappel, nous utilisons le projet StalkPhish pour récupérer le kit d'hameçonnage, puis extraire la clé API de Telegram que nous insérons dans mon programme. Ensuite, vous pouvez espionner n'importe quel canal Telegram pour lequel vous disposez de la clé API du bot. J'ai mis un petit diagramme pour résumer le pipeline.
 
 <div style="display: flex;justify-content: center;">
     <img alt="Fig.2" src="/images/posts/utp_fig_2.png">

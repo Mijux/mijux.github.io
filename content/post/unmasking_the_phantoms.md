@@ -24,8 +24,18 @@ This study elucidates the evolution of phishing methodologies, transitioning fro
 
 ## Thanks
 
-I want to thank my friends for constructive discussions we have had on the subject.
+I want to thank my friends and my girlfriend for constructive discussions we have had on the subject and also for proofreading this article.
 
+## Glossary
+
+- [Telegram](https://telegram.org): A cloud-based mobile and desktop messaging app with a focus on security and speed.
+- [Discord](https://discord.com): A cloud-based mobile and desktop messaging app with friends and communities.
+- [OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence): **O**pen **S**ource **INT**elligence, this involves retrieving public information from the Internet.
+- [API](https://en.wikipedia.org/wiki/API): **A**pplication **P**rogramming **I**nterface, the set of requests that can be made to query a service.
+- [API key](https://en.wikipedia.org/wiki/API_key): Enables you to obtain the necessary permissions to interact with the API.
+- [webhook](https://en.wikipedia.org/wiki/Webhook): A service that notifies users. In the case of Discord, this sends messages in conversations.
+- [bot](https://en.wikipedia.org/wiki/Internet_bot): An abbreviation of robot.
+- [phishing](https://en.wikipedia.org/wiki/Phishing): Obtaining personal or sensitive information by pretending to be a legitimate organization.
 ## Introduction
 
 Since COVID-19 and the lockdowns, we have seen an increase in phishing attacks. According to David Warburton on the [F5 blog](https://www.f5.com/company/news/features/phishing-attacks-soar-220--during-covid-19-peak-as-cybercriminal), these increases were around 220% during the lockdowns. In other words, instead of having 100 attacks, we'd have 320 attacks. Today, we have a 15% annual increase. As someone interested in cybersecurity, I found myself pondering several questions, one of which was: 
