@@ -24,7 +24,7 @@ Ce post traite de l'évolution des méthodologies d'hameçonnage, passant des ta
 
 ## Remerciements
 
-Je tiens à remercier mes amis pour les discussions constructives que nous avons eues sur le sujet.
+Je tiens à remercier mes amis et ma copine pour les discussions constructives que nous avons eues sur le sujet mais aussi pour les corrections apportées sur cet article.
 
 ## Glossaire
 
