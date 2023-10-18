@@ -23,7 +23,7 @@ pygmentsUseClasses = true
   rss = true
   lastmod = true
   userStatusEmoji = "🛡️"
-  favicon = "/images/github.png"
+  favicon = "/images/avatar.png"
   location = "🤖 Cyberspace"
 #  enableGitalk = true
 #
@@ -40,17 +40,8 @@ pygmentsUseClasses = true
 #    createIssueManually = true
 #    distractionFreeMode = false
 
-#  [[params.links]]
-#    title = "Link"
-#    href = "https://github.com/meik2333"
-#  [[params.links]]
-#    title = "Link2"
-#    href = "https://meik2333.com"
-#    icon = "https://meik2333.com/images/avatar.png"
-
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -64,38 +55,9 @@ DefaultContentLanguaga = "en"
   [languages.en]
     languageName = "English"
     weight = 1
-#    [languages.en.params]
-#      organizations = "Organizations"
-#      search = "Search"
-#      overview = "Overview"
-#      posts = "Posts"
-#      pinned = "Pinned"
-#      less = "Less"
-#      more = "More"
-#      post_activity = "Post activity"
-#      created = "Created"
-#      modified = "Modified"
-#      words = "Words"
-#      previous = "Previous"
-#      next = "Next"
-#      page404 = "Didn’t find anything here!"
   [languages.fr]
     languageName = "Français"
     weight = 2
     description = "Les amateurs piratent les systèmes, les professionnels piratent les personnes."
     [languages.fr.params]
       is_french = true
-#      organizations = "Organisations"
-#      search = "Rechercher"
-#      overview = "Aperçu"
-#      posts = "Articles"
-#      pinned = "Épinglés"
-#      less = "Peu"
-#      more = "Beaucoup"
-#      post_activity = "Activité de publication"
-#      created = "Créé il y a "
-#      modified = "Modifié il y a"
-#      words = "Mots"
-#      previous = "Précédent"
-#      next = "Suivant"
-#      page404 = "Cette page n'a pas été trouvée"
