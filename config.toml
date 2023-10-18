@@ -19,12 +19,16 @@ pygmentsUseClasses = true
 #  tumblr = ""
   email = "mijux-dev@proton.me"
   url = "https://mijux.github.io"
-  keywords = "blog, cyber, cybersecurity, cyberdefense, programming, coding, IT, security, portfolio, write-up, google analytics"
+  keywords = "blog, cyber, cybersecurity, cyberdefense, programming, coding, IT, security, portfolio, write-up, analytics"
   rss = true
   lastmod = true
   userStatusEmoji = "🛡️"
   favicon = "/images/avatar.png"
   location = "🤖 Cyberspace"
+  
+  mamotoserver = "analytics.nogg.ovh"
+  mamotoid = "1"
+
 #  enableGitalk = true
 #
 #  [params.gitalk]
