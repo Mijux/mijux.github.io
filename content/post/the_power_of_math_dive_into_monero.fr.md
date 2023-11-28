@@ -234,7 +234,7 @@ Cela lui permet donc d'envoyer à son tour les tokens XMR qu'elle a reçus. Ce p
 
 ### Ring Signature
 
-L'autre particuliarité intéressante, de Monero et de son protocole Cryptonote, est la faculté de pouvoir cacher l'émetteur d'une transaction. Une signature en cercle à usage unique (ou appelé en anglais one-time ring signature) containt quatre algorithmes :
+L'autre particuliarité intéressante, de Monero et de son protocole Cryptonote, est la faculté de pouvoir cacher l'émetteur d'une transaction. Une signature en cercle à usage unique (ou appelé en anglais one-time ring signature) contient quatre algorithmes :
 - **GEN**: Prend les paramètres publiques et produit une paire de clefs \\((P,x)\\) et une clef publique \\(I\\).
 - **SIG**: Prend un message \\(m\\), un ensemble \\(S'\\) de clefs publiques \\(\\{P_i\\}_{i \neq s}\\), une paire \\((P_s, x_s)\\) et produit une signature \\(\sigma\\) et un ensemble \\(S = S' \cup \\{P_s\\}\\)
 - **VER**: Prend un message \\(m\\), un ensemble \\(S\\), une signature \\(\sigma\\) et produit "vrai" ou "faux".
