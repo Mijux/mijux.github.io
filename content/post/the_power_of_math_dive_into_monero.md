@@ -28,6 +28,10 @@ math = true
 
 > Disclaimer: This article does not constitute financial advice, nor is it intended to encourage the use of the Monero blockchain or the purchase of its XMR token. Please consult the legislation in force in your country. Depending on the laws and regulations, it may be considered illegal to hold Monero, or to use its ecosystem.
 
+## Abstract
+
+This article describes Monero, a privacy-focused blockchain far from its associations with illegal activities. It highlights its similarities to cash, through its properties of fungibility, security and confidentiality. After a short historical section, this article dives into the cryptography, based on elliptic curves, omnipresent in Monero. Cryptography, which protects users of the blockchain by masking the receiver, sender and amount of transactions. Three security elements are discussed: stealth addresses, circle signatures and confidential circle transactions, each with simplified demonstrations.
+
 ## Introduction
 
 This article is not intended to explain how to use the Monero blockchain, how to buy XMR or how to install a wallet. You are sure to find some interesting tutorials using your favorite browser and search engine.
@@ -323,7 +327,8 @@ $$
 
 Finally, it verifies the following equality:
 $$
- \displaystyle\sum_{i=0}^nc_i = H_s(m,L'_0,...,L'_n,R'_0,...,R'_n) \mod l
+\displaystyle\sum_{i=0}^nc_i = H_s(m,L'_0,...,L'_n, \\\
+R'_0,...,R'_n) \mod l
 $$
 
 If this equality is verified, then the verifier can move on to the [LNK](#lnk) step, otherwise it rejects the signature.

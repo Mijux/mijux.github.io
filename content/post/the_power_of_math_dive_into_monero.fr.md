@@ -28,6 +28,10 @@ math = true
 
 > Clause de non-responsabilité : Cet article ne consiste pas en un conseil financier, et n'est pas destiné à inciter à l'utilisation de la blockchain Monero ainsi ni à l'achat de son token XMR. Veuillez consulter la législation en vigeur dans votre pays. Selon les lois et réglementations, il peut être considéré illégal de détenir du Monero, ou d'utiliser son écosystème.
 
+## Résumé
+
+Cet article décrit Monero, une blockchain axée sur la vie privée, loin de ses associations avec des activités illégales. Il met en lumière ses similarités avec l'argent liquide, par ses propriétés de fongibilité, de sécurité et de confidentialité. Après une courte section historique, cet article plonge dans la cryptographie, basée sur les courbes elliptiques, omniprésente dans Monero. Cryptographie, qui permet de protéger les utilisateurs de la blockchain en masquant le destinataire, l'émetteur et le montant des transactions. Trois éléments de sécurité y sont décortiqués : les adresses furtives, les signatures en cercle et les transactions confidentielles de cercle, chacun avec des démonstrations simplifiées.
+
 ## Introduction
 
 Cet article n'a pas pour vocation de vous expliquer comment utiliser la blockchain Monero, comment acheter du XMR ou encore comment installer un wallet. Vous trouverez des tutoriels très certainement intéressants en vous munissant de votre navigateur et moteur de recherche préférés.
@@ -324,7 +328,8 @@ $$
 
 Enfin, il vérifie l'égalité suivante :
 $$
- \displaystyle\sum_{i=0}^nc_i = H_s(m,L'_0,...,L'_n,R'_0,...,R'_n) \mod l
+\displaystyle\sum_{i=0}^nc_i = H_s(m,L'_0,...,L'_n, \\\
+R'_0,...,R'_n) \mod l
 $$
 
 Si cette égalité est vérifiée alors le vérifieur peut passer à l'étape [LNK](#lnk) sinon il rejete la signature.
