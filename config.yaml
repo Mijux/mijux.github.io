@@ -1,0 +1,75 @@
+baseURL: "mijux.github.io"
+languageCode: "en-us"
+title: "Mijux's blog"
+theme: "github-style"
+
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+
+params:
+  author: "Mijux"
+  description: "Amateurs hack systems, professionals hack people."
+  github: "Mijux"
+  twitter: "MijuxDev"
+  cyberdefenders: "Mijux"
+  dockerhub: "mijuxdev"
+#   facebook: "<your-facebook-username>"
+#   linkedin: "<your-linkedin-username>"
+#   instagram: "<your-instagram-username>"
+#   tumblr: "<your-tumblr-username>"
+  email: "mijux-dev@proton.me"
+  url: "https://mijux.github.io"
+  keywords: "blog, cyber, cybersecurity, cyberdefense, programming, coding, IT, security, portfolio, write-up, analytics"
+  rss: true
+  lastmod: true
+  userStatusEmoji: "🛡️"
+  favicon: "/images/avatar.png"
+  location: "🤖 Cyberspace"
+  
+#  mamotoserver: "<your-mamoto-server>"
+#  mamotoid: "<your-mamoto-id>"
+
+  avatar: "/images/avatar.png"
+  headerIcon: "/images/GitHub-Mark-Light-32px.png"
+
+#  enableGitalk: true
+#  params:
+#    gitalk:
+#      clientID: "Your client ID"
+#      clientSecret: "Your client secret"
+#      repo: "repo"
+#      owner: "username"
+#      admin: "username"
+#      id: "location.pathname"
+#      labels: "gitalk"
+#      perPage: 15
+#      pagerDirection: "last"
+#      createIssueManually: true
+#      distractionFreeMode: false
+
+frontmatter:
+  lastmod:
+    - "lastmod"
+    - ":fileModTime"
+    - ":default"
+
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+DefaultContentLanguage: "en"
+languages:
+  en:
+    languageName: "English 🇺🇸"
+    weight: 1
+    params:
+      locale: "en-US"
+  fr:
+    languageName: "Français 🇫🇷"
+    weight: 2
+    params:
+      locale: "fr-FR"
+      description: "Les amateurs piratent les systèmes, les professionnels piratent les personnes."
