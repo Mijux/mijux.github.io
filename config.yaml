@@ -25,12 +25,12 @@ params:
   userStatusEmoji: "🛡️"
   favicon: "/images/avatar.png"
   location: "🤖 Cyberspace"
-  
+
 #  mamotoserver: "<your-mamoto-server>"
 #  mamotoid: "<your-mamoto-id>"
 
   avatar: "/images/avatar.png"
-  headerIcon: "/images/GitHub-Mark-Light-32px.png"
+  headerIcon: "/images/avatar.png"
 
 #  enableGitalk: true
 #  params:
