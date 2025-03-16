@@ -26,8 +26,11 @@ params:
   favicon: "/images/avatar.png"
   location: "🤖 Cyberspace"
 
-#  mamotoserver: "<your-mamoto-server>"
-#  mamotoid: "<your-mamoto-id>"
+#  matomoServer: "<your-mamoto-server>"
+#  matomoId: "<your-mamoto-id>"
+
+  vinceServer: "analytics.nogg.ovh"
+  vinceDataDomain: "mijux.github.io"
 
   avatar: "/images/avatar.png"
   headerIcon: "/images/avatar.png"
