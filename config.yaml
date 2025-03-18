@@ -29,8 +29,10 @@ params:
 #  matomoServer: "<your-mamoto-server>"
 #  matomoId: "<your-mamoto-id>"
 
-  vinceServer: "analytics.nogg.ovh"
-  vinceDataDomain: "mijux.github.io"
+#  vinceServer: "analytics.nogg.ovh"
+#  vinceDataDomain: "mijux.github.io"
+
+  medamaServer: "analytics.nogg.ovh"
 
   avatar: "/images/avatar.png"
   headerIcon: "/images/avatar.png"
